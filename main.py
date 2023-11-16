@@ -22,3 +22,4 @@ if TYPE_CHECKING:
     from .model import Whisper
 
 
+@torch.no_grad()
