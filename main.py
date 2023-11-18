@@ -26,3 +26,4 @@ if TYPE_CHECKING:
 def detect_language(
     model: "Whisper", mel: Tensor, tokenizer: Tokenizer = None
 ) -> Tuple[Tensor, List[dict]]:
+    """
