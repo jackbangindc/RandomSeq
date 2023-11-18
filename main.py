@@ -27,3 +27,4 @@ def detect_language(
     model: "Whisper", mel: Tensor, tokenizer: Tokenizer = None
 ) -> Tuple[Tensor, List[dict]]:
     """
+    Detect the spoken language in the audio, and return them as list of strings, along with the ids
