@@ -23,3 +23,4 @@ if TYPE_CHECKING:
 
 
 @torch.no_grad()
+def detect_language(
