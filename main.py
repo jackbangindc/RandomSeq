@@ -32,3 +32,4 @@ def detect_language(
     This is performed outside the main decode loop in order to not interfere with kv-caching.
 
     Returns
+    -------
