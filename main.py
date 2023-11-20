@@ -34,3 +34,4 @@ def detect_language(
     Returns
     -------
     language_tokens : Tensor, shape = (n_audio,)
+        ids of the most probable language tokens, which appears after the startoftranscript token.
