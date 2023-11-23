@@ -38,3 +38,4 @@ def detect_language(
     language_probs : List[Dict[str, float]], length = n_audio
         list of dictionaries containing the probability distribution over all languages.
     """
+    if tokenizer is None:
