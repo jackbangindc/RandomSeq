@@ -47,3 +47,4 @@ def detect_language(
         or tokenizer.language_token not in tokenizer.sot_sequence
     ):
         raise ValueError(
+            "This model doesn't have language tokens so it can't perform lang id"
