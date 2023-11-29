@@ -54,3 +54,4 @@ def detect_language(
     if single:
         mel = mel.unsqueeze(0)
 
+    # skip encoder forward pass if already-encoded audio features were given
