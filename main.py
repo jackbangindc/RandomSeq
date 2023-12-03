@@ -63,3 +63,4 @@ def detect_language(
     x = torch.tensor([[tokenizer.sot]] * n_audio).to(mel.device)  # [n_audio, 1]
     logits = model.logits(x, mel)[:, 0]
 
+    # collect detected languages; suppress all non-language tokens
