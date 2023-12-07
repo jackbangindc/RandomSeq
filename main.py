@@ -72,3 +72,4 @@ def detect_language(
     language_probs = [
         {
             c: language_token_probs[i, j].item()
+            for j, c in zip(tokenizer.all_language_tokens, tokenizer.all_language_codes)
