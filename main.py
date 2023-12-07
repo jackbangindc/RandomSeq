@@ -71,3 +71,4 @@ def detect_language(
     language_token_probs = logits.softmax(dim=-1).cpu()
     language_probs = [
         {
+            c: language_token_probs[i, j].item()
