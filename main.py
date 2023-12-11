@@ -85,3 +85,4 @@ def detect_language(
 
 
 @dataclass(frozen=True)
+class DecodingOptions:
