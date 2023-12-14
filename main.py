@@ -89,3 +89,4 @@ class DecodingOptions:
     # whether to perform X->X "transcribe" or X->English "translate"
     task: str = "transcribe"
 
+    # language that the audio is in; uses detected language if None
