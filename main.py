@@ -93,3 +93,4 @@ class DecodingOptions:
     language: Optional[str] = None
 
     # sampling-related options
+    temperature: float = 0.0
