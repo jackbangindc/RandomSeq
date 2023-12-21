@@ -94,3 +94,4 @@ class DecodingOptions:
 
     # sampling-related options
     temperature: float = 0.0
+    sample_len: Optional[int] = None  # maximum number of tokens to sample
