@@ -99,3 +99,4 @@ class DecodingOptions:
     beam_size: Optional[int] = None  # number of beams in beam search, if t == 0
     patience: Optional[float] = None  # patience in beam search (arxiv:2204.05424)
 
+    # "alpha" in Google NMT, or None for length norm, when ranking generations
