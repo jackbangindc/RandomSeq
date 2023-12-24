@@ -98,3 +98,4 @@ class DecodingOptions:
     best_of: Optional[int] = None  # number of independent sample trajectories, if t > 0
     beam_size: Optional[int] = None  # number of beams in beam search, if t == 0
     patience: Optional[float] = None  # patience in beam search (arxiv:2204.05424)
+
