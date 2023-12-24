@@ -100,3 +100,4 @@ class DecodingOptions:
     patience: Optional[float] = None  # patience in beam search (arxiv:2204.05424)
 
     # "alpha" in Google NMT, or None for length norm, when ranking generations
+    # to select which to return among the beams or best-of-N samples
