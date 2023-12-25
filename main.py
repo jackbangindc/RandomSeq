@@ -102,3 +102,4 @@ class DecodingOptions:
     # "alpha" in Google NMT, or None for length norm, when ranking generations
     # to select which to return among the beams or best-of-N samples
     length_penalty: Optional[float] = None
+
