@@ -104,3 +104,4 @@ class DecodingOptions:
     length_penalty: Optional[float] = None
 
     # text or tokens to feed as the prompt or the prefix; for more info:
+    # https://github.com/openai/whisper/discussions/117#discussioncomment-3727051
