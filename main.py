@@ -106,3 +106,4 @@ class DecodingOptions:
     # text or tokens to feed as the prompt or the prefix; for more info:
     # https://github.com/openai/whisper/discussions/117#discussioncomment-3727051
     prompt: Optional[Union[str, List[int]]] = None  # for the previous context
+    prefix: Optional[Union[str, List[int]]] = None  # to prefix the current context
