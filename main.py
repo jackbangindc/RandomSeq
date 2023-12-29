@@ -108,3 +108,4 @@ class DecodingOptions:
     prompt: Optional[Union[str, List[int]]] = None  # for the previous context
     prefix: Optional[Union[str, List[int]]] = None  # to prefix the current context
 
+    # list of tokens ids (or comma-separated token ids) to suppress
