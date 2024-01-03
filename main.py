@@ -109,3 +109,4 @@ class DecodingOptions:
     prefix: Optional[Union[str, List[int]]] = None  # to prefix the current context
 
     # list of tokens ids (or comma-separated token ids) to suppress
+    # "-1" will suppress a set of symbols as defined in `tokenizer.non_speech_tokens()`
