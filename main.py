@@ -114,3 +114,4 @@ class DecodingOptions:
     suppress_blank: bool = True  # this will suppress blank outputs
 
     # timestamp sampling options
+    without_timestamps: bool = False  # use <|notimestamps|> to sample text tokens only
