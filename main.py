@@ -113,3 +113,4 @@ class DecodingOptions:
     suppress_tokens: Optional[Union[str, Iterable[int]]] = "-1"
     suppress_blank: bool = True  # this will suppress blank outputs
 
+    # timestamp sampling options
