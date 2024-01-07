@@ -117,3 +117,4 @@ class DecodingOptions:
     without_timestamps: bool = False  # use <|notimestamps|> to sample text tokens only
     max_initial_timestamp: Optional[float] = 1.0
 
+    # implementation details
