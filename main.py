@@ -118,3 +118,4 @@ class DecodingOptions:
     max_initial_timestamp: Optional[float] = 1.0
 
     # implementation details
+    fp16: bool = True  # use fp16 for most of the calculation
