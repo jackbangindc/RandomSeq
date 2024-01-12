@@ -122,3 +122,4 @@ class DecodingOptions:
 
 
 @dataclass(frozen=True)
+class DecodingResult:
