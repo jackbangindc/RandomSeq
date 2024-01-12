@@ -123,3 +123,4 @@ class DecodingOptions:
 
 @dataclass(frozen=True)
 class DecodingResult:
+    audio_features: Tensor
