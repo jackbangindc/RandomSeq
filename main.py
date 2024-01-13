@@ -127,3 +127,4 @@ class DecodingResult:
     language: str
     language_probs: Optional[Dict[str, float]] = None
     tokens: List[int] = field(default_factory=list)
+    text: str = ""
