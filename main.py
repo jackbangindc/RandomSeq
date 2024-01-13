@@ -125,3 +125,4 @@ class DecodingOptions:
 class DecodingResult:
     audio_features: Tensor
     language: str
+    language_probs: Optional[Dict[str, float]] = None
