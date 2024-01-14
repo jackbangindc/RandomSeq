@@ -130,3 +130,4 @@ class DecodingResult:
     text: str = ""
     avg_logprob: float = np.nan
     no_speech_prob: float = np.nan
+    temperature: float = np.nan
