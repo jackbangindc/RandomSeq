@@ -129,3 +129,4 @@ class DecodingResult:
     tokens: List[int] = field(default_factory=list)
     text: str = ""
     avg_logprob: float = np.nan
+    no_speech_prob: float = np.nan
