@@ -131,3 +131,4 @@ class DecodingResult:
     avg_logprob: float = np.nan
     no_speech_prob: float = np.nan
     temperature: float = np.nan
+    compression_ratio: float = np.nan
