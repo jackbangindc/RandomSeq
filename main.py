@@ -133,3 +133,4 @@ class DecodingResult:
     temperature: float = np.nan
     compression_ratio: float = np.nan
 
+
