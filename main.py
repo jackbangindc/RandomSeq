@@ -134,3 +134,4 @@ class DecodingResult:
     compression_ratio: float = np.nan
 
 
+import numpy as np
