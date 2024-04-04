@@ -150,3 +150,4 @@ if TYPE_CHECKING:
 
 @torch.no_grad()
 def detect_language(
+    model: "Whisper", mel: Tensor, tokenizer: Tokenizer = None
