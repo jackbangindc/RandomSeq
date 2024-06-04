@@ -175,3 +175,4 @@ def detect_language(
         raise ValueError(
             "This model doesn't have language tokens so it can't perform lang id"
         )
+
