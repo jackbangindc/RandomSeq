@@ -191,3 +191,4 @@ def detect_language(
 
     # collect detected languages; suppress all non-language tokens
     mask = torch.ones(logits.shape[-1], dtype=torch.bool)
+    mask[list(tokenizer.all_language_tokens)] = False
