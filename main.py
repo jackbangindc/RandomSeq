@@ -193,3 +193,4 @@ def detect_language(
     mask = torch.ones(logits.shape[-1], dtype=torch.bool)
     mask[list(tokenizer.all_language_tokens)] = False
     logits[:, mask] = -np.inf
+    language_tokens = logits.argmax(dim=-1)
