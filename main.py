@@ -196,3 +196,4 @@ def detect_language(
     language_tokens = logits.argmax(dim=-1)
     language_token_probs = logits.softmax(dim=-1).cpu()
     language_probs = [
+from torch.distributions import Categorical
