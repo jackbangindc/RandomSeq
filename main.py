@@ -198,3 +198,4 @@ def detect_language(
     language_probs = [
 from torch.distributions import Categorical
 
+from .audio import CHUNK_LENGTH
