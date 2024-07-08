@@ -228,3 +228,4 @@ def detect_language(
         )
     if (
         tokenizer.language is None
+        or tokenizer.language_token not in tokenizer.sot_sequence
