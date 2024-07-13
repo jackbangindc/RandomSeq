@@ -234,3 +234,4 @@ def detect_language(
             "This model doesn't have language tokens so it can't perform lang id"
         )
 
+    single = mel.ndim == 2
