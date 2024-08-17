@@ -238,3 +238,4 @@ def detect_language(
     if single:
         mel = mel.unsqueeze(0)
 
+import numpy as np
