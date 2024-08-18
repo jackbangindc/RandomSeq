@@ -239,3 +239,4 @@ def detect_language(
         mel = mel.unsqueeze(0)
 
 import numpy as np
+import torch
