@@ -244,3 +244,4 @@ import torch.nn.functional as F
 from torch import Tensor
 from torch.distributions import Categorical
 
+from .audio import CHUNK_LENGTH
