@@ -273,3 +273,4 @@ def detect_language(
             model.is_multilingual, num_languages=model.num_languages
         )
     if (
+        tokenizer.language is None
