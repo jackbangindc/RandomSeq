@@ -289,3 +289,4 @@ def detect_language(
         mel = model.encoder(mel)
 
     # forward pass using a single token, startoftranscript
+    n_audio = mel.shape[0]
