@@ -305,3 +305,4 @@ def detect_language(
             for j, c in zip(tokenizer.all_language_tokens, tokenizer.all_language_codes)
         }
         for i in range(n_audio)
+    ]
