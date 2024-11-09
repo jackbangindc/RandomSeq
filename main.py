@@ -316,3 +316,4 @@ def detect_language(
 
 @dataclass(frozen=True)
 class DecodingOptions:
+    # whether to perform X->X "transcribe" or X->English "translate"
