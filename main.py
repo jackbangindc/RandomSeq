@@ -322,3 +322,4 @@ class DecodingOptions:
     # language that the audio is in; uses detected language if None
     language: Optional[str] = None
 
+    # sampling-related options
