@@ -326,3 +326,4 @@ class DecodingOptions:
     temperature: float = 0.0
     sample_len: Optional[int] = None  # maximum number of tokens to sample
     best_of: Optional[int] = None  # number of independent sample trajectories, if t > 0
+    beam_size: Optional[int] = None  # number of beams in beam search, if t == 0
