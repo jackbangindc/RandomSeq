@@ -347,3 +347,4 @@ from .audio import CHUNK_LENGTH
 from .tokenizer import Tokenizer, get_tokenizer
 from .utils import compression_ratio
 
+if TYPE_CHECKING:
