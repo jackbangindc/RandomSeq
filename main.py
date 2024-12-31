@@ -360,3 +360,4 @@ def detect_language(
     of the most probable language tokens and the probability distribution over all language tokens.
     This is performed outside the main decode loop in order to not interfere with kv-caching.
 
+    Returns
