@@ -368,3 +368,4 @@ def detect_language(
         list of dictionaries containing the probability distribution over all languages.
     """
     if tokenizer is None:
+        tokenizer = get_tokenizer(
