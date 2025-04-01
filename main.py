@@ -387,3 +387,4 @@ def detect_language(
     if mel.shape[-2:] != (model.dims.n_audio_ctx, model.dims.n_audio_state):
         mel = model.encoder(mel)
 
+    # forward pass using a single token, startoftranscript
