@@ -390,3 +390,4 @@ def detect_language(
     # forward pass using a single token, startoftranscript
     n_audio = mel.shape[0]
     x = torch.tensor([[tokenizer.sot]] * n_audio).to(mel.device)  # [n_audio, 1]
+    logits = model.logits(x, mel)[:, 0]
