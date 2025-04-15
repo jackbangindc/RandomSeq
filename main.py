@@ -397,3 +397,4 @@ def detect_language(
     mask[list(tokenizer.all_language_tokens)] = False
     logits[:, mask] = -np.inf
     language_tokens = logits.argmax(dim=-1)
+    language_token_probs = logits.softmax(dim=-1).cpu()
