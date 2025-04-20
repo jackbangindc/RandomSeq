@@ -407,3 +407,4 @@ def detect_language(
     ]
 
     if single:
+        language_tokens = language_tokens[0]
