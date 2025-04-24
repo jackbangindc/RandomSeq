@@ -410,3 +410,4 @@ def detect_language(
         language_tokens = language_tokens[0]
         language_probs = language_probs[0]
 
+    return language_tokens, language_probs
