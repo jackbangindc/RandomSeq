@@ -408,3 +408,4 @@ def detect_language(
 
     if single:
         language_tokens = language_tokens[0]
+        language_probs = language_probs[0]
