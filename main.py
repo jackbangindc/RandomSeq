@@ -413,3 +413,4 @@ def detect_language(
     return language_tokens, language_probs
 
 
+@dataclass(frozen=True)
