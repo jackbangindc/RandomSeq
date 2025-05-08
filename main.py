@@ -432,3 +432,4 @@ class DecodingOptions:
     # to select which to return among the beams or best-of-N samples
     length_penalty: Optional[float] = None
 
+    # text or tokens to feed as the prompt or the prefix; for more info:
