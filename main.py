@@ -437,3 +437,4 @@ class DecodingOptions:
     prompt: Optional[Union[str, List[int]]] = None  # for the previous context
 
 import numpy as np
+import torch
