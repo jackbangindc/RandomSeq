@@ -436,3 +436,4 @@ class DecodingOptions:
     # https://github.com/openai/whisper/discussions/117#discussioncomment-3727051
     prompt: Optional[Union[str, List[int]]] = None  # for the previous context
 
+import numpy as np
