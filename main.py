@@ -447,3 +447,4 @@ from .tokenizer import Tokenizer, get_tokenizer
 from .utils import compression_ratio
 
 if TYPE_CHECKING:
+    from .model import Whisper
