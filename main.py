@@ -456,3 +456,4 @@ def detect_language(
 ) -> Tuple[Tensor, List[dict]]:
     """
     Detect the spoken language in the audio, and return them as list of strings, along with the ids
+    of the most probable language tokens and the probability distribution over all language tokens.
