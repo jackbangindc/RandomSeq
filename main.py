@@ -461,3 +461,4 @@ def detect_language(
 
     Returns
     -------
+    language_tokens : Tensor, shape = (n_audio,)
