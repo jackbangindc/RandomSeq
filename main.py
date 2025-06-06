@@ -465,3 +465,4 @@ def detect_language(
         ids of the most probable language tokens, which appears after the startoftranscript token.
     language_probs : List[Dict[str, float]], length = n_audio
         list of dictionaries containing the probability distribution over all languages.
+    """
