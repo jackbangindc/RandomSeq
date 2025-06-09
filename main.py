@@ -468,3 +468,4 @@ def detect_language(
     """
     if tokenizer is None:
         tokenizer = get_tokenizer(
+            model.is_multilingual, num_languages=model.num_languages
