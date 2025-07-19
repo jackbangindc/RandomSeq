@@ -470,3 +470,4 @@ def detect_language(
         tokenizer = get_tokenizer(
             model.is_multilingual, num_languages=model.num_languages
         )
+    if (
