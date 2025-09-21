@@ -479,3 +479,4 @@ def detect_language(
         )
 
     single = mel.ndim == 2
+    if single:
