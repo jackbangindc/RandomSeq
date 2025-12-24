@@ -492,3 +492,4 @@ def detect_language(
     logits = model.logits(x, mel)[:, 0]
 
     # collect detected languages; suppress all non-language tokens
+    mask = torch.ones(logits.shape[-1], dtype=torch.bool)
